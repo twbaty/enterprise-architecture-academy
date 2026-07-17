@@ -44,10 +44,14 @@ nav:
       - How to Use This Material: start-here/how-to-use.md
   - Project:
       - Program Charter: project/program-charter.md
+      - Project Philosophy: project/project-philosophy.md
       - Guiding Principles: project/guiding-principles.md
+      - Project Governance: project/governance.md
       - Editorial Governance: project/editorial-governance.md
       - Source Authority: project/source-authority.md
-      - Terminology and Style: project/terminology-style.md
+      - Content and Style Guide: project/style-guide.md
+      - Terminology Notes: project/terminology-style.md
+      - Architecture Decisions: project/adr/index.md
       - Roadmap: project/roadmap.md
       - Changelog: project/changelog.md
   - Foundation:
