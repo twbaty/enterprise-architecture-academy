@@ -1,0 +1,32 @@
+name: Content proposal
+description: Propose a lesson, correction, scenario, or curriculum improvement
+title: "[Proposal] "
+labels: ["proposal"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Proposal type
+      options:
+        - Correction
+        - Clarification
+        - New lesson or section
+        - Scenario or exercise
+        - Assessment material
+        - Repository or site improvement
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What should change?
+      description: Identify the page or curriculum area and explain the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: Describe the change and any authoritative sources.
+    validations:
+      required: true

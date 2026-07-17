@@ -1,0 +1,69 @@
+site_name: Enterprise Architecture Academy
+site_description: Community-contributed Enterprise Architecture curriculum under owner editorial control
+copyright: Independent educational project; TOGAF is a trademark of The Open Group.
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - Start Here:
+      - Program Overview: start-here/index.md
+      - How to Use This Material: start-here/how-to-use.md
+  - Project:
+      - Program Charter: project/program-charter.md
+      - Guiding Principles: project/guiding-principles.md
+      - Editorial Governance: project/editorial-governance.md
+      - Source Authority: project/source-authority.md
+      - Terminology and Style: project/terminology-style.md
+      - Roadmap: project/roadmap.md
+      - Changelog: project/changelog.md
+  - Foundation:
+      - Course Overview: foundation/index.md
+      - Curriculum Design: foundation/curriculum-design.md
+      - Lessons:
+          - F1 — First Principles: foundation/lessons/f01-first-principles.md
+          - F2 — Standard and Vocabulary: foundation/lessons/f02-standard-vocabulary.md
+          - F3 — ADM Whole Cycle: foundation/lessons/f03-adm-whole-cycle.md
+          - F4 — Preliminary Phase: foundation/lessons/f04-preliminary-phase.md
+  - Practitioner:
+      - Course Overview: practitioner/index.md
+  - Case Studies:
+      - Overview: case-studies/index.md
+      - Northstar Regional Health: case-studies/northstar/index.md
+  - Contribute:
+      - Contribution Guide: contribute/index.md
+      - Lesson Template: templates/lesson-template.md
+      - Scenario Template: templates/scenario-template.md
