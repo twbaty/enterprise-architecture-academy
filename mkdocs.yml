@@ -31,7 +31,11 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -39,6 +43,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Glossary: glossary.md
   - Start Here:
       - Program Overview: start-here/index.md
       - How to Use This Material: start-here/how-to-use.md
@@ -60,8 +65,13 @@ nav:
       - Lessons:
           - F1 — First Principles: foundation/lessons/f01-first-principles.md
           - F2 — Standard and Vocabulary: foundation/lessons/f02-standard-vocabulary.md
-          - F3 — ADM Whole Cycle: foundation/lessons/f03-adm-whole-cycle.md
-          - F4 — Preliminary Phase: foundation/lessons/f04-preliminary-phase.md
+          - F3 — The ADM Whole Cycle: foundation/lessons/f03-adm-whole-cycle.md
+          - F4 — ADM Techniques and Stakeholder Management: foundation/lessons/f04-adm-techniques.md
+          - F5 — Applying the ADM: foundation/lessons/f05-applying-the-adm.md
+          - F6 — Architecture Governance: foundation/lessons/f06-architecture-governance.md
+          - F7 — Architecture Content: foundation/lessons/f07-architecture-content.md
+          - F8 — Continuum and Reference Models: foundation/lessons/f08-continuum-and-reference-models.md
+          - F9 — Integration and Exam Readiness: foundation/lessons/f09-integration-and-exam-readiness.md
   - Practitioner:
       - Course Overview: practitioner/index.md
   - Case Studies:
